@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: TestSuite
+Test set: Login Testi
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.533 s -- in TestSuite
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.43 s -- in Login Testi

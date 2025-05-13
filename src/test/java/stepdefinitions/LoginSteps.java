@@ -28,7 +28,7 @@ public class LoginSteps {
     @Then("ana sayfaya yönlendirilmelidir")
     public void ana_sayfaya_yonlendirilmelidir() {
         String currentUrl = driver.getCurrentUrl();
-        assert currentUrl.contains("inventory");  // örnek kontrol
+        assert currentUrl.contains("inventory");
         driver.quit();
     }
 }

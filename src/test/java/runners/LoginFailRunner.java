@@ -6,7 +6,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features = "src/test/resources/LoginFail.feature",
     glue = "stepdefinitions",
-    plugin = {"pretty", "html:target/cucumber-report.html"},
+    plugin = {
+        "pretty",
+        "html:target/cucumber-report.html",
+        "json:target/cucumber-fail.json"
+    },
     monochrome = true
 )
 public class LoginFailRunner {

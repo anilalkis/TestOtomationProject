@@ -4,14 +4,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "src/test/resources/Login.feature",
+    features = "src/test/resources/AddToCart.feature",
     glue = "stepdefinitions",
-    plugin = {
-        "pretty",
-        "html:target/cucumber-report.html",
-        "json:target/cucumber.json"
-    },
+    plugin = {"pretty", "html:target/cucumber-report.html"},
     monochrome = true
 )
-public class LoginRunner {
+public class AddToCartRunner {
+    
 }

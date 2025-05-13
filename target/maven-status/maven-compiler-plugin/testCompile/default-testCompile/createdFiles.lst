@@ -1,4 +1,6 @@
 stepdefinitions\LoginSteps.class
+stepdefinitions\AddToCartSteps.class
 LoginRunner.class
 stepdefinitions\LoginFailSteps.class
+AddToCartRunner.class
 LoginFailRunner.class
