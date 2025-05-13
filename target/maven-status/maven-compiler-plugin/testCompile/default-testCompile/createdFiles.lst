@@ -1,2 +1,4 @@
 stepdefinitions\LoginSteps.class
 LoginRunner.class
+stepdefinitions\LoginFailSteps.class
+LoginFailRunner.class
